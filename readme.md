@@ -64,7 +64,16 @@ yarn add
 ### 2) 깃허브 도구 설정
 
 ```json
-  "homepage": "https://jigglypop.github.io/baminmonbanggu/",
+{
+    ...
+    // 					// 내 깃헙아이디       // repository 이름
+    "homepage": "https://(jigglypop).github.io/(baminmonbanggu)/",
+    
+    ...
+    "scripts" : {
+        "deploy": "gh-pages -d build"
+    }
+}
 
 ```
 
